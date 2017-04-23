@@ -1,0 +1,207 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Felipa', cursive;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Felipa', cursive;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.top-area{
+    position: relative;
+
+}
+.top-area-bg{
+    background: url("img/banner.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.mainmenu{
+    position: relative;
+    padding-right: 10px;
+}
+.logo img{
+    position: relative;
+    margin-top: -3px;
+    z-index: 1;
+}
+.header-area span {
+    margin: 5px 0;
+    font-size: 10px;
+    font-weight: bold;
+    color: #3d82a9;
+    margin-left: 7px;
+}
+.header-area .header-right{
+    text-align: right;
+    float: none;
+    width: 100%;
+    padding-right: 50px;
+}
+.header-area .header-right span{
+    padding-left: 70px;
+}
+.mainmenu ul.nav{
+    text-align: right;
+    float: none;
+}
+.mainmenu ul.navbar-nav li{
+    float: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px 1px 0px 0px;
+}
+.nav>li>a {
+    padding: 10px 5px;
+}
+.mainmenu ul.nav li a{
+    color: #e19201;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-area{
+    width: 100%;
+    z-index: 999;
+    position: relative;
+    background-color: rgba(6, 8, 31, 0.6);
+}
+.is-sticky.header-area:after{
+    background: #000000;
+    opacity: .8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.banner-area {
+    height: 450px;
+}
+.btn-filled{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    margin: 0 5px;
+    background: #000000;
+    opacity: .8;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+.btn-filled:after{
+    z-index: -1;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn-filled.yellow-btn{
+    background-color: #D2BA82;
+}
+.social-links{
+    position: absolute;
+    right: -92px;
+    top: 28px;
+}
+.social-links a{
+    color: yellow;
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 8px;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.section-title{
+    color: #e19201;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-area{
+    background: #00001a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.footer-area .section-title{
+    color: #e19201;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer-cards{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.footer-cards i{
+    margin: 0 2px;
+}
+.footer-menu a{
+    font-size: 10px;
+    font-weight: bold;
+    color: #e19201;
+    display: inline-block;
+    padding: 0 2px;
+}
+
+p.com-name {
+    font-size: 13px;
+    color: #e19201;
+    font-weight: bold;
+}
+.address p {
+    margin: 0 0 2px;
+    font-size: 12px;
+    color: #e19201;
+}
+.copyright{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 40px 0px 10px 0px;
+}
+.copyright span.yellow{
+    color: #c1c50e;
+}
